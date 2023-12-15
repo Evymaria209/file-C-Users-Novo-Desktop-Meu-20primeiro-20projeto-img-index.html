@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caminho/do/seu/arquivo.css">
+    <title>Pet Fashion - Moda para Pets</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            text-align: center;
+            padding: 2em;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, button {
+            margin: 1em;
+            padding: 0.5em;
+            width: 80%;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pet Fashion</h1>
+        <p>O seu pet merece estar na moda!</p>
+    </header>
+
+    <section>
+        <h2>Descubra o Estilo para o seu Melhor Amigo</h2>
+        <p>Na Pet Fashion, oferecemos produtos exclusivos que combinam elegância e conforto para o seu pet. Transforme a vida do seu amigo peludo com o melhor da moda pet!</p>
+
+        <form action="/processar-formulario" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <button type="submit">Entrar em Contato</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pet Fashion. Todos os direitos reservados.</p>
+        <p>Entre em contato: info@petfashion.com</p>
+    </footer>
+
+</body>
+</html>
+
